@@ -1,0 +1,1 @@
+print('This file was created using the terminal in VS Code!')
