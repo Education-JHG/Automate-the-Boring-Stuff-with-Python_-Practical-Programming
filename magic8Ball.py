@@ -1,7 +1,8 @@
 # Import random library
-import random
+import random, sys
 
 def getAnswer(answerNumber):
+    """ Compares a random number simulating an 8-Ball toy """
     if answerNumber == 1:
         return 'It is certain'
     if answerNumber == 2:
@@ -18,7 +19,13 @@ def getAnswer(answerNumber):
         return 'Outlook not so good'
     if answerNumber == 8:
         return 'Very doubtful'
-    
+
+
+# Ask the user to enter a question
+print('Please enter your question: ')
+question = input()
+
+# Generate a random number
 r = random.randint(1, 9)
 fortune = getAnswer(r)
 print(fortune)
