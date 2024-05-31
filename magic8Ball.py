@@ -16,8 +16,10 @@ def getAnswer(answerNumber):
     if answerNumber == 6:
         return 'Concentrate and ask again'
     if answerNumber == 7:
-        return 'Outlook not so good'
+        return 'My reply is no'
     if answerNumber == 8:
+        return 'Outlook not so good'
+    if answerNumber == 9:
         return 'Very doubtful'
 
 
